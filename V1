@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Raceway Titans</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <h1>Raceway Titans</h1>
+        <p>Join us for the most thrilling Formula 1 league experience.</p>
+        <a href="#" class="cta-button">Register Now</a>
+      </section>
+
+      <section class="content-section">
+        <h2>About Raceway Titans</h2>
+        <p>Raceway Titans is a premier Formula 1 league that provides a thrilling racing experience for passionate drivers. Our mission is to provide an exciting and engaging platform for racing enthusiasts to connect, compete and have fun.</p>
+      </section>
+
+      <section class="content-section">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>Event 1 - Date: XX/XX/XXXX</li>
+          <li>Event 2 - Date: XX/XX/XXXX</li>
+          <li>Event 3 - Date: XX/XX/XXXX</li>
+        </ul>
+        <a href="#" class="cta-button">View All Events</a>
+      </section>
+
+      <section class="content-section">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit" class="cta-button">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2023 Raceway Titans</p>
+    </footer>
+  </body>
+</html>
